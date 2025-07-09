@@ -2,7 +2,7 @@ export default function (p) {
     let t = 0;
 
     p.setup = function () {
-        p.createCanvas(600, 600);
+        p.createCanvas(400, 400);
         p.background(9);
         p.colorMode(p.HSB, 360, 100, 100);
     }

@@ -3,45 +3,63 @@ title: Introducción
 unitId: intro
 ---
 import { Aside } from '@astrojs/starlight/components';
+import { Steps } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
 
 
-## Carta descriptiva
+## Carta descriptiva 📜
 
 Por favor consulta la carta descriptiva en el sistema de la Universidad. 
 Te voy a mostrar aquí los puntos más importantes de ese documento.
 
-## Descripción del curso
+## Descripción del curso 📝
 
 El objeto de este curso es aportar a las competencias que te permitan construir 
 aplicaciones interactivas que intercambien información con varios dispositivos 
 de cómputo externos que tengan la capacidad de leer y/o modificar el mundo físico. 
-El curso se estructura alrededor de un proyecto que permita trabajar conceptos 
-tales como comunicaciones inalámbricas, protocolos de comunicación híbridos, 
-sockets UDP, técnicas de programación multihilo y máquinas de estado, entre otros.  
+El curso se estructura alrededor de un proyecto en el cual construirás una aplicación 
+que permita trabajar conceptos tales como comunicaciones inalámbricas, protocolos 
+de comunicación híbridos, sockets, técnicas de programación multihilo, máquinas de 
+estado, entre otros.  
 
-La aplicación deberá intercambiar información de manera inalámbrica con dos o 
-más dispositivos de cómputo y podrá ser controlada remotamente por otra aplicación. 
+La aplicación deberá intercambiar información de manera inalámbrica con, al menos, tres 
+dispositivos de cómputo, de los cuales uno podrá controlar remotamente la aplicación. 
 La aplicación interactiva construida se publicará en un repositorio público y 
 hará parte de tu portafolio.
 
 ### Algunos ejemplos de este tipo de aplicaciones:
 
-- [Moment factory Shows & Concerts](https://youtu.be/WD8zBDsf1Kg?si=riQpcqxZULxL2gaQ)
-- [Interactive](https://momentfactory.com/reel/interactive-demo) de Moment Factory
-- [Lumia](https://momentfactory.com/reel/lumina-night-walks-demo) de Moment Factory
-- [TDAxis](https://tdaxis.github.io/)
-- [RisitasCorp](https://github.com/juanferfranco/RisitasCorp_Rider) y [RisitasCorpApp](https://github.com/juanferfranco/RisitasCorp_App)
-- [Proyecto Cosmere](https://github.com/juanferfranco/FisInt2)
-- [Proyecto WEM_23](https://github.com/juanferfranco/WEM_23)
-- [Proyecto Los Repartidores](https://github.com/juanferfranco/INTERACTIVOS_2_REPARTIDOR)
-- [Video prototipo #3 sistemas físicos 2 Rafael Castaño Méndez](https://youtu.be/AVl84DJk1r4?si=D8vele5TJEv-vAyM)
-- [¿Cómo se ven nuestras neuronas con cada acción que realizamos? + Explicación](https://youtu.be/Vl3FXVoz-V4?si=PQl7JUfh9_kppABJ)
-- [Tercer Prototipo - Sistemas Físicos - Jose Santiago Restrepo](https://youtu.be/OksQ4hUmVkQ?si=4Fh4ByuuurN2uQ0J)
-- [3D Vehicle Interactive Customization - Wendy Martinez 2024-20](https://youtu.be/4ZYXgQNO-QE?si=3LaGQUqCBNCbn8wY)  
-- [Heart rate visualization demo - Emanuel Quintero 2024-20](https://youtu.be/ytdGYKzxM7k?si=CsJavaj5hDk7z2EN)  
-- [Feelum - Tobia Arrieta Machado 2024-20](https://youtu.be/uJQmqhcxPZ8?si=fHW-pZocVGm1ZNGH)  
+<Tabs>
+    <TabItem label="Estudiantes IDED">
+        - [TDAxis](https://tdaxis.github.io/)
+        - [RisitasCorp](https://github.com/juanferfranco/RisitasCorp_Rider) y [RisitasCorpApp](https://github.com/juanferfranco/RisitasCorp_App)
+        - [Proyecto Cosmere](https://github.com/juanferfranco/FisInt2)
+        - [Proyecto WEM_23](https://github.com/juanferfranco/WEM_23)
+        - [Proyecto Los Repartidores](https://github.com/juanferfranco/INTERACTIVOS_2_REPARTIDOR)
+        - [Video prototipo #3 sistemas físicos 2 Rafael Castaño Méndez](https://youtu.be/AVl84DJk1r4?si=D8vele5TJEv-vAyM)
+        - [¿Cómo se ven nuestras neuronas con cada acción que realizamos? + Explicación](https://youtu.be/Vl3FXVoz-V4?si=PQl7JUfh9_kppABJ)
+        - [Tercer Prototipo - Sistemas Físicos - Jose Santiago Restrepo](https://youtu.be/OksQ4hUmVkQ?si=4Fh4ByuuurN2uQ0J)
+        - [3D Vehicle Interactive Customization - Wendy Martinez 2024-20](https://youtu.be/4ZYXgQNO-QE?si=3LaGQUqCBNCbn8wY)  
+        - [Heart rate visualization demo - Emanuel Quintero 2024-20](https://youtu.be/ytdGYKzxM7k?si=CsJavaj5hDk7z2EN)  
+        - [Feelum - Tobia Arrieta Machado 2024-20](https://youtu.be/uJQmqhcxPZ8?si=fHW-pZocVGm1ZNGH)  
+        - [Auralis - Sebastián Torres 2025-10](https://youtu.be/H487MD4CpKg)
+        - [Manuela Buriticá 2025-10](https://youtu.be/MVcaoeyBOmU?si=fw6gGo0sl5P1Y-n2)
+    </TabItem>
+    <TabItem label="Eventos y artistas">
+        - [Arturs Skutelis — Vienkārši Vārdi real-time live music visuals](https://kristapskazaks.com/arturs-skutelis-vienkarsi-vardi)
+        - [Sónar+D CCCB 2020 Music: "Carles Viarnès & Alba G. Corral 360º AV Show"](https://youtu.be/EMO45Y0Jazs?si=ky55_xRuzVWQigjO)
+    </TabItem>
+    <TabItem label="Empresas">
+        - [Moment factory Shows & Concerts](https://youtu.be/WD8zBDsf1Kg?si=riQpcqxZULxL2gaQ)
+        - [Interactive](https://momentfactory.com/reel/interactive-demo) de Moment Factory
+        - [Lumia](https://momentfactory.com/reel/lumina-night-walks-demo) de Moment Factory
+    </TabItem>
+</Tabs>
 
-## Propósito del curso
+
+
+
+## Propósito del curso 🎯
 
 Se espera que al finalizar el curso seas capaz de construir una aplicación interactiva 
 que pueda intercambiar información con múltiples sistemas de cómputo externos que tengan 
@@ -49,7 +67,7 @@ la capacidad de leer y/o modificar el mundo físico. Para este fin te propondré
 una situación problemática que debes resolver seleccionando las técnicas de programación 
 y protocolos más adecuados (nivel autónomo) según los requerimientos.
 
-## Resultado de aprendizaje general
+## Resultado de aprendizaje general 🏆
 
 Soluciono problemas de interacción mediante la integración de contenidos digitales y 
 software de acuerdo con un diseño previo, para la implementación de sistemas intermediados 
@@ -79,29 +97,29 @@ apropiadas para conseguir una solución óptima al problema.
 
 Sí. Los niveles son receptivo, resolutivo y estratégico.
 
-## Contenidos a revisar
+## Contenidos a revisar 📚
 
 **Unidad 1**: diseño y arte generativo.  
 **Unidad 2**: marco de diseño para proyectos de diseño generativo.  
 **Unidad 3**: referentes y herramientas 1.    
 **Unidad 4**: referentes y herramientas 2.  
-**Unidad 5**: definición del concepto y diseño preliminar.  
-**Unidad 6**: diseño y experimentos.  
-**Unidad 7**: implementación.  
+**Unidad 5**: concepto, diseño, experimentos.  
+**Unidad 6**: implementación iteración 1.  
+**Unidad 7**: implementación iteración 2.  
 **Unidad 8**: portafolio.  
 
-## Metodología del curso y estructura del curso
+## Metodología y estructura del curso 🏗️
 
-Este curso gira alrededor de la construcción de un proyecto que podrás incluir en tu 
-portafolio. Te propondré un problema que deberás abordar mediante un proyecto de curso. 
-Por tanto, la metodología del curso será aprendizaje basado en proyectos.
+Este curso gira alrededor de la construcción de un producto interactivo para tu portafolio. 
+Te propondré un problema que deberás abordar mediante un proyecto de curso. Por tanto, 
+la metodología del curso será aprendizaje basado en proyectos.
 
 El curso está estructurado en dos partes. En un primero momento vas a explorar 
 y experimentar. Esto servirá para que diseñes de manera informada la solución al 
 problema. En el segundo momento diseñarás, implementarás y documentarás tu 
-proyecto.
+producto interactivo.
 
-## Cronograma
+## Cronograma 📅
 
 **Unidad 1**: semanas 1 a 2.  
 **Unidad 2**: semanas 3 a 4.  
@@ -112,7 +130,7 @@ proyecto.
 **Unidad 7**: semanas 13 a 14.  
 **Unidad 8**: semanas 15 a 16. 
 
-## Evaluación
+## Evaluación ✅
 
 La evaluación en este curso será formativa, progresiva y compartida. Cada unidad se evaluará en 
 tres momentos: primero revisaremos juntos tu trabajo de la fase set-seek y luego el de la fase apply. 
@@ -135,9 +153,9 @@ construiste, conversar sobre tu proceso y diligenciar la parte correspondiente d
 
 **Segundo momento: evaluación de apply**
 
-Justo antes de la segunda sesión de la segunda semana, se capturan las evidencias de lo que desarrollaste 
-en la fase apply. Durante esa sesión, mientras haces tu reflexión final (reflect), realizaré contigo la 
-evaluación de esta fase práctica, también en el aula y en diálogo contigo.
+Justo antes de la segunda sesión de la segunda semana de la unidad, se capturan las evidencias de lo 
+que desarrollaste en la fase apply. Durante esa sesión, mientras haces tu reflexión final (reflect), realizaré 
+contigo la evaluación de esta fase práctica, también en el aula y en diálogo contigo.
 
 **Tercer momento: evaluación de reflect (autoevaluación y coevaluación)**
 
@@ -154,25 +172,29 @@ sobre cómo y qué estás aprendiendo.
 
 | Fase       | Descripción breve                                      | % sugerido |
 | ---------- | ------------------------------------------------------ | ---------- |
-| `set-seek` | Exploración y construcción de contexto                 | **40%**    |
-| `apply`    | Producción/aplicación de lo aprendido                  | **60%**    |
+| `set-seek` | Investigación: exploración y construcción de contexto  | **40%**    |
+| `apply`    | Transferencia: aplicación de lo aprendido              | **60%**    |
+| `reflect`  | Metacognición                                          | **0%**     |
 | **Total**  |                                                        | **100%**   |
 
 </Aside>
 
-## Asistencia
+## Asistencia 🎓
+
+<Aside type="danger" title="Asistencia obligatoria">
 
 La asistencia a las sesiones presenciales del curso es fundamental. Además, según el régimen discente de la Universidad en el capítulo 7, artículo 43:
 
 Se entiende por asistencia la participación del estudiante en las actividades académicas programadas en cada curso para cada período académico. 
 El estudiante cuyas faltas de asistencia superen el 20% del total de horas y actividades programadas, reprobará el curso correspondiente con una nota 
-definitiva de 0.00.
+definitiva de **0.00**.
+</Aside>
 
-## Dedicación
+## Dedicación ⏱️
 
 Este curso es de 2 créditos distribuidos en dos sesiones semanales con acompañamiento del docente y una sesión de trabajo independiente. La dedicación total es de 6 horas.
 
-## Workflow del curso para el trabajo en equipo
+## Workflow del curso para el trabajo en equipo 🔄
 
 Esta guía documenta el flujo de trabajo utilizando GitHub como plataforma de desarrollo, seguimiento, entrega y evaluación de evidencias. Este curso lo realizermos 
 como un equipo compuesto por cada estudiante, el profesor y un compañero coevalador en cada unidad. El flujo de trabajo está diseñado para facilitar la colaboración, 
@@ -185,10 +207,10 @@ la autoevaluación, la coevaluación y la evaluación del profesor, asegurando u
 * Centralizar las evidencias por fases: Set/Seek, Apply, Reflect.  
 * Automatizar la captura de entregas y la consolidación de resultados.  
 
-**2. Estructura de ramas y PRs:**
+**2. Estructura de ramas y Pull requests (PR):**
 
 * main: rama protegida. Solo el profesor puede hacer merge. Contiene las evidencias definitivas.  
-* unidadX/set-seek: rama de trabajo del estudiante para la fase de exploración.  
+* unidadX/set-seek: rama de trabajo del estudiante para la fase de investigación.  
 * unidadX/apply: rama de trabajo para el desarrollo de soluciones.  
 * unidadX/reflect: rama para la metacognición, auto y coevaluación.  
 
@@ -196,39 +218,104 @@ Cada PR de entrega se genera desde la rama correspondiente hacia main.
 
 **3. Cronograma por unidad**
 
-Semana 1:
+<Steps>
 
-* El profesor activa unidadX/set-seek como rama por defecto.  
-* El estudiante trabaja y hace commit/push en esa rama.  
+1. Semana 1:
 
-Semana 2, Sesión 1:
+    * El profesor activa unidadX/set-seek como rama por defecto.  
+    * El estudiante trabaja y hace commit/push en esa rama.  
 
-* El profesor automatiza la creación de un PR unidadX/set-seek → main.  
-* El PR queda abierto, y se hace merge luego de la evaluación.  
-* El profesor activa unidadX/apply como nueva rama por defecto.  
-* El profesor escribe directamente en rubrica.md durante esta semana (mientras la rama activa es unidadX/apply).  
+2. Semana 2, Sesión 1:
 
-Semana 2, Sesión 2:
+    * El profesor automatiza la creación de un PR unidadX/set-seek → main.  
+    * El PR queda abierto, y se hace merge luego de la evaluación.  
+    * El profesor activa unidadX/apply como nueva rama por defecto.  
+    * El profesor escribe directamente en rubrica.md durante esta semana (mientras la rama activa es unidadX/apply).  
 
-* El profesor genera el PR unidadX/apply → main.  
-* La evaluación del profesor sobre la fase apply también se hacen directamente en rubrica.md mientras unidadX/reflect está activa.  
-* El PR permanece abierto y se hace merge posterior a la evaluación, que puede ocurrir en cualquier momento durante la sesión.  
-* El profesor activa unidadX/reflect como rama por defecto para las actividades finales.  
-* Durante esta sesión, otro estudiante realiza una coevaluación de la unidad completa (set-seek y apply) de un compañero, con fines formativos. 
-Esta evaluación no se escribe en el repositorio del evaluado, ni se deja como comentario en el PR (ya que puede ser cerrado en cualquier momento), sino 
-que queda únicamente documentada en el archivo reflect.md dentro del repositorio del estudiante que realiza la coevaluación.
+3. Semana 2, Sesión 2:
 
-Fin de la unidad:
+    * El profesor genera el PR unidadX/apply → main.  
+    * La evaluación del profesor sobre la fase apply también se hacen directamente en rubrica.md mientras unidadX/reflect está activa.  
+    * El PR permanece abierto y se hace merge posterior a la evaluación, que puede ocurrir en cualquier momento durante la sesión.  
+    * El profesor activa unidadX/reflect como rama por defecto para las actividades finales.  
+    * Durante esta sesión, otro estudiante realiza una coevaluación de la unidad completa (set-seek y apply) de un compañero, con fines formativos. 
+    Esta evaluación no se escribe en el repositorio del evaluado, ni se deja como comentario en el PR (ya que puede ser cerrado en cualquier momento), sino 
+    que queda únicamente documentada en el archivo reflect.md dentro del repositorio del estudiante que realiza la coevaluación.
 
-* En la sesión 2 de la semana 2, se completa la evalulación de la unidad y se sube la nota al sistema institucional.
-* La rama unidadX/reflect se mantiene como activa hasta que comience la siguiente unidad. Durante este tiempo, el estudiante podrá realizar ajustes 
-formativos a sus bitácoras, sin que esto afecte la nota sumativa, y podrá usarlos como base para solicitar retroalimentación o asesorías al profesor.
+4. Fin de la unidad:
 
-**4. Archivos clave**
+    * En la sesión 2 de la semana 2, se completa la evaluación de la unidad y se sube la nota al sistema institucional.
+    * La rama unidadX/reflect se mantiene como activa hasta que comience la siguiente unidad. Durante este tiempo, el estudiante podrá realizar ajustes 
+    formativos a sus bitácoras, sin que esto afecte la nota sumativa, y podrá usarlos como base para solicitar retroalimentación o asesorías al profesor.
 
-* set-seek.md, apply.md, reflect.md: desarrollo por fase.
-* rubrica.md: evaluación de la unidad por parte del profesor.
+</Steps>
 
-## Bitácoras de aprendizaje
+
+## Proyecto de curso 🚀
+
+Vamos a diseñar y a implementar un prototipo de una experiencia interactiva colectiva en tiempo real para 
+un evento en vivo, utilizando principios de diseño generativo. Este proyecto te permitirá aplicar los conceptos
+y técnicas aprendidas en el curso, integrando dispositivos externos y creando una experiencia que responda 
+a la interacción del público y a los cambios en el entorno físico.
+
+### Contexto
+
+En un mundo cada vez más conectado, las experiencias interactivas en tiempo real se han convertido en una 
+parte esencial del entretenimiento digital. Estas experiencias no solo cautivan al público, sino que también
+ofrecen una forma única de interacción y participación. El diseño generativo, con su capacidad
+para crear contenido dinámico y adaptativo, se presenta como una herramienta poderosa para desarrollar
+experiencias que respondan a la interacción del público y a los cambios en el entorno.
+
+### Objetivo general 
+
+Diseñar y desarrollar una aplicación interactiva en tiempo real que utilice principios de 
+diseño generativo y se comunique con al menos dos dispositivos de cómputo externos para crear 
+una experiencia o instalación interactiva que responda a la interacción del público y/o a cambios 
+en el entorno físico. Esta aplicación deberá ser controlada remotamente por un tercer dispositivo 
+que permita realizar ajustes en tiempo real.
+
+Nota entonces que tendremos en total cuatro dispositivos: dos que capturan datos del público y/o del entorno físico,
+un tercero que permite el control remoto de la aplicación, y un cuarto que ejecuta la aplicación
+interactiva generativa.
+
+### Escenario 
+
+La aplicación interactiva generativa será exhibida en un evento en vivo. El público podrá interactuar 
+con la instalación, generando cambios en el contenido visual o sonoro de la aplicación en tiempo real. 
+La aplicación recibirá información de al menos dos dispositivos externos que capturarán datos 
+del público y/o del entorno físico, influenciando la experiencia generativa. Un tercer 
+dispositivo permitirá a un operador controlar remotamente los parámetros de la aplicación, ajustando 
+la experiencia en tiempo real según las necesidades del evento.
+
+### Requisitos Funcionales
+
+- Generación de contenido dinámico: la aplicación deberá generar contenido visual o sonoro que 
+se modifique en tiempo real basándose en las interacciones de los usuarios y los datos recibidos 
+de los dispositivos externos.
+
+- Interacción en tiempo real: la aplicación debe responder de forma instantánea a las entradas de 
+los usuarios y/o al entorno físico.
+
+- Comunicación con dispositivos externos: la aplicación debe ser capaz de comunicarse con al menos 
+dos dispositivos de cómputo externos que puedan leer datos del público y/o entorno físico 
+(sensores, cámaras, etc.). Debe también comunicarse con un tercer dispositivo para control remoto.
+
+### Requisitos técnicos
+
+- Tecnologías web: vamos a utilizar en principio tecnologías web y la biblioteca p5.js. ¿Quieres 
+explorar otras tecnologías? (hablemos).
+
+- Protocolos de comunicación: implementar protocolos de comunicación adecuados 
+(ASCII, binario, WebSockets) para el intercambio de datos entre la aplicación, los dispositivos 
+externos y el dispositivo de control remoto.
+
+- Algoritmos generativos: implementar algoritmos generativos que produzcan contenido 
+visual o sonoro dinámico.
+
+- Producto final: un prototipo funcional de la aplicación web interactiva generativa, junto 
+con la documentación técnica necesaria para su comprensión y replicación. Este prototipo 
+formará parte de tu portafolio.
+
+## Bitácoras de aprendizaje 📔
 
 En [este enlace](https://classroom.github.com/a/gCBuP4so) encontrarás las bitácoras de aprendizaje que debes llevar durante el curso.

@@ -2,7 +2,8 @@
 
 Vamos a observar juntos este sitio [Generative Design](http://www.generative-gestaltung.de/2/) y experimentemos un poco. 
 
-:::note[🧐🧪✍️ Experimento 1]
+:::note[🧐🧪✍️ Experimento]
+
 Ahora es tu turno. Busco otro ejemplo que te llame la atención:
 
 * Analiza cómo funciona
@@ -13,5 +14,6 @@ Ahora es tu turno. Busco otro ejemplo que te llame la atención:
 
 
 :::caution[📤 Bitácora] 
-Reporta el experimento 
+Reporta los resultados del experimento en la bitácora. Y no olvides incluir el enlace al ejemplo analizado y también el enlace 
+a tu versión modificada. Explica qué hiciste y por qué.
 :::

@@ -1,10 +1,11 @@
-#### Profundizando en las instrucciones del lenguaje ensamblador
+#### Generación de formas geométricas aleatorias
 
-**Enunciado**: el documento "Machine Language" describe dos tipos de instrucciones en el lenguaje ensamblador Hack: A-instructions y C-instructions (páginas 64-69).
+:::note[🧐🧪✍️ Experimento]
+Utilizando p5.js, crea un programa que genere formas geométricas (círculos, cuadrados, triángulos) con posición, tamaño y color aleatorios. Experimenta con diferentes funciones de p5.js para controlar la aleatoriedad y la apariencia de las formas. Mira, lo que te estoy pidiendo es que JUEGUES, explores y te dejes llevar. Trata de ver la documentación de referencia que tiene p5.js, experimenta
+:::
 
-- ¿Cuál es la función de cada tipo de instrucción?
-- ¿Cómo se representa cada tipo de instrucción en binario?
-- Proporciona al menos 3 ejemplos de cada tipo de instrucción, explicando qué hace cada una. Puedes usar las tablas de las páginas 67 y 69 del documento como referencia para los códigos de operación (comp), destinos (dest) y saltos (jump).
-
-**Entrega**: la solución a cada una de las preguntas planteadas en el enunciado. 
+:::caution[📤 Bitácora] 
+Reporta los resultados del experimento en la bitácora. Y no olvides incluir el enlace al ejemplo analizado y también el enlace 
+a tu versión modificada. Explica qué hiciste y por qué.
+:::
 

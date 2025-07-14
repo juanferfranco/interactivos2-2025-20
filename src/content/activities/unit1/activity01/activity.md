@@ -23,7 +23,7 @@ Ahora conversamos sobre estos asuntos:
 * [Vera Molnár](https://youtu.be/8tNESHtfkr0?si=yjciVLNE2hJblipQ)
 * [How To Draw With Code | Casey Reas](https://youtu.be/_8DMEHxOLQE?si=ukjVoYQZyniMEF3d)
 * [Licia He](https://youtu.be/jmzVt61-mEE?si=xqMoaVi1U-E1LWpi)
-* [GENERATIVE DESIGN, INTRO & Patrik Hübner](https://youtu.be/-ntgKfXFbSk?si=bhdqeZTz2U4BAh-4)
+* [GENERATIVE DESIGN, INTRO & Patrik Hübner](https://youtu.be/-ntgKfXFbSk?si=0puI2P9LXPodIbqz&t=855)
 
 :::caution[📤 Bitácora] 
 Luego de la presentación y discusión grupal describe en tus propias palabras:

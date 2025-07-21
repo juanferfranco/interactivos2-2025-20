@@ -2,10 +2,9 @@
 
 :::note[🧐🧪✍️ Aplicación]
 Vuelve al sitio [Generative Design](http://www.generative-gestaltung.de/2/). Selecciona un ejemplo. 
-trata de recrear el ejemplo usando p5.js. PERO, no mires el código. Vas a utilizar una técnica poderosa para aprender llamada 
-[Deconstruction/Reconstruction](https://www.ucviden.dk/en/publications/deconstructionreconstruction-a-pedagogic-method-for-teaching-prog) propuesta por el profesor 
-[Stig Møller Hansen](https://linktr.ee/stigmollerhansen). Lo que propone esta téncnica es que primero observes el ejemplo, no mires el código, simplemente observa cómo funciona, 
-qué partes lo componen, cómo interactúan esas partes. Luego, intenta recrear el ejemplo sin mirar el código. Finalmente, compara tu versión con el código original.
+Vas a utilizar un método poderoso para aprender llamado [Deconstruction/Reconstruction](https://www.ucviden.dk/en/publications/deconstructionreconstruction-a-pedagogic-method-for-teaching-prog) propuesta por el profesor 
+[Stig Møller Hansen](https://linktr.ee/stigmollerhansen). Aplica el método deconstrucción/reconstrucción con el ejemplo que seleccionaste. 
+Aplica las siete etapas del proceso de aprendizaje. 
 :::
 
 :::tip[IMPORANTE]
@@ -19,11 +18,13 @@ disfruta del proceso, experimenta, juega, diviértete. Es el proceso lo que impo
 :::
 
 :::caution[📤 Bitácora] 
-Reporta en tu bitácora el proceso de creación de la aplicación. Conversa con la bitácora, escribe tus ideas, no borres nada, simplemente escribe todo lo que se te ocurra. 
+Reporta en tu bitácora LAS SIETE ESTAPAS del método deconstrucción/reconstrucción. Conversa con la bitácora, escribe tus ideas, no borres nada, simplemente escribe todo lo que se te ocurra. 
 Experimenta, reporta lo que consigues, reflexiona, escribe una nueva idea, experimenta, itera. También te pediré que coloques en tu bitácora lo siguiente:
 
+* Reporta las siete etapas del método deconstrucción/reconstrucción.
 * Enlace al ejemplo que seleccionaste para deconstruir.
 * Enlace a tu versión reconstruida.
 * Código fuente de tu versión.
 * Explica qué hiciste y por qué.
+* Incluye capturas de pantalla de la fase EXPLORE y de la fase TINKER.
 :::

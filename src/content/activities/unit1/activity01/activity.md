@@ -1,4 +1,4 @@
-### ¿Qué es el diseño y arte generativo?
+#### ¿Qué es el diseño y arte generativo?
 
 Vamos a explorar juntos algunas partes del material que está en la siguiente presentación:  
 [Generative Design](https://docs.google.com/presentation/d/1BdYN4_EtIgZfO-wqnvjU4W6dlW7Zhxbdi9soy29wWXQ/edit?usp=sharing).

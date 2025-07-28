@@ -1,58 +1,45 @@
-#### Escritura usando punteros
+#### Diseño de una experiencia generativa
 
-**Enunciado**: un puntero es una variable que almacena la dirección de memoria de otra variable. Observa el siguiente programa escrito en C++:
+Tu tarea es diseñar una experiencia inmersiva, colectiva y en tiempo real para una canción del álbum 
+Ambrosía de Nerón Arkano (diferente a "Prometeo"). Debes entregar un documento conceptual, similar 
+en estructura y detalle al de "Prometeo", que sirva como el plano de tu prototipo.
 
-``` cpp
-int a = 10;
-int* p;
-p = &a;
-*p = 20;
-```
+Proceso:
 
-El programa anterior modifica el contenido de la variable **a** por medio de la variable **p**. **p** es un puntero porque almacena la dirección de memoria de la variable **a**. En este caso el valor de la variable **a** será 20 luego de ejecutar *p = 20;. 
+1. Escucha y elige: explora el álbum Ambrosía en Spotify. Selecciona una canción que te inspire. 
+Escúchala varias veces, lee su letra y analiza su estructura, sus cambios de intensidad y su mensaje.
+2. Define el **Concepto Raíz**: ¿Cuál es la idea fundamental de tu experiencia? ¿Es sobre la dualidad, 
+la transformación, la conexión, la fragilidad? Escribe una declaración de intenciones, como el "concepto raíz" de "Prometeo".
+3. Estructura la Experiencia: divide la canción en fases lógicas (mínimo 2, máximo 4). Cada fase debe corresponder 
+a una sección de la canción (intro, verso, coro, puente, etc.) y debe tener una emoción o intención clara.
+4. Diseña cada Fase (Input-Process-Output): para cada fase, detalla:
 
-Ahora analiza con detenimiento:
+   - Emoción Buscada: ¿Qué quieres que sienta el público?
+   - Input: ¿Qué datos del mundo real alimentarán el sistema? (Voz del artista, datos de sensores, interacción del público, etc.). Sé específico.
+   - Process: ¿Cuáles son las reglas generativas? Describe la lógica que conecta el input con el output. 
+   - Output: ¿Qué se verá y/o se oirá? Describe la manifestación visual y sonora de tu sistema.
 
-- ¿Cómo se **declara** un puntero en C++? 
+5. Conecta con Future Narratives: concluye tu documento con una sección que explique cómo tu diseño aplica los 4 conceptos clave de FN (Nodos, Multi-linealidad, Staging, Agencia).
 
-``` cpp
-int* p;
-```
+:::caution[📤 Bitácora]
+En tu bitácora, crea una nueva entrada para esta actividad. El contenido debe ser tu documento de diseño completo, 
+siguiendo la estructura descrita. Este será el entregable principal de la unidad.
 
-**p** es una variable que almacenará la dirección de otra variable. Dicha variable almacenará número enteros.
+Título del Proyecto: [Nombre de tu experiencia]  
+Canción seleccionada: [Nombre de la canción y enlace a Spotify]  
+Concepto Raíz: [Tu declaración de intenciones]  
+Fase 1: [Nombre de la fase]  
+Emoción Buscada: ...  
+Input: ...  
+Process: ...  
+Output: ...  
+Fase 2: [Nombre de la fase]  
+(Repetir estructura)  
+(...)  
 
-- ¿Cómo se **define** (nota que antes preguntamos cómo se **declara**) un puntero en C++? 
+Conexión con la Teoría de Future Narratives:
 
-``` cpp
-p = &a;. 
-```
-
-Definir el puntero es **inicializar** el valor del puntero, es decir, guardar la dirección de una variable. En este caso p contendrá la dirección de a o podemos decir que p apunta a **a**
-
-- ¿Cómo se almacena en C++ la dirección de memoria de una variable? Con el operador **&**. 
-
-``` cpp
-p = &a;
-```
-
-- ¿Cómo se escribe el contenido de la variable a la que apunta un puntero? Con el operador *. 
-
-``` cpp
-*p = 20;
-```
-
-En este caso como **p** contiene la dirección de **a**. Por tanto, se está modificando el valor 
-de la variable **a** por medio de **p**.
-
-Ahora tu misión será convertir este programa a ensamblador:
-
-``` cpp
-int a = 10;
-int* p;
-p = &a;
-*p = 20;
-```
-
-- Por favor, te ruego que verifiques con el simulador. No olvides que p debe guardar la dirección de **a** 
-
-**Entrega**: la solución al problema anterior.
+- Nodos: [Describe dónde y cómo ocurren los nodos en tu diseño]  
+- Multi-linealidad y emergencia: [Explica cómo tu sistema genera una experiencia única cada vez]  
+- Staging la apertura: [Detalla cómo escenificas la experiencia en lugar de contarla]  
+- Agencia Distribuida: [Analiza cómo se distribuye la agencia entre artista, público y sistema en tu propuesta]  

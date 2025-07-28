@@ -1,24 +1,17 @@
-#### Experimenta con arreglos
+#### Feedback de la unidad
 
-**Enunciado**: los arreglos son colecciones de datos en la memoria. 
+**Mejorando la experiencia: tu feedback es clave.**
 
-Considera el siguiente programa
+Ayúdame a refinar esta unidad para futuros estudiantes.
 
-``` cpp
+:::caution[📤 Bitácora]
 
-int arr[] = {1,2,3,4,5,6,7,8,9,10};
-int sum = 0;
+Responde con total sinceridad:
 
-for (int j = 0; j < 10; j++) {
-    sum = sum + arr[j];
-}
+1. Continuar: ¿Qué parte del análisis del caso "Prometeo" fue más reveladora para ti?
+2. Dejar de hacer: ¿Hubo algún concepto teórico que te pareció demasiado abstracto o difícil de conectar con la práctica?
+3. Empezar a hacer: ¿Te gustaría tener una pequeña actividad de "prototipado en papel" de las reglas del proceso antes de escribir el documento de diseño completo?
+4. Método de aprendizaje: ¿El análisis detallado de un único caso de estudio te resultó más útil que ver muchos ejemplos de forma más superficial? ¿Por qué?
+5. Comentario adicional: ¿Hay algo más que quieras compartir?
 
-```
-
-- Implementa el programa anterior en lenguaje ensamblador.
-- Considera que los datos del arreglo están almacenados desde la dirección 16. Puedes inicializar 
-manualmente el arreglo. 
-- Es fundamental que hagas la simulación paso a paso y analices con detenimiento el funcionamiento 
-del programa.
-
-**Entrega**: la solución al problema anterior.
+:::

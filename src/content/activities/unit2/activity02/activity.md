@@ -1,53 +1,44 @@
-#### Descifrando el Hack 
+#### Deconstruyendo el caso de estudio "Ambrosía - El ritual de prometeo"
 
-**Enunciado**: en el capítulo 4 del libro The Elements of Computing Systems que puedes 
-ver [aquí](https://www.nand2tetris.org/_files/ugd/44046b_7ef1c00a714c46768f08c459a6cab45a.pdf) (es el mismo capítulo que analizaste la unidad anterior), hay un ejemplo interesante. Se trata la traducción 
-de un programa de lenguaje C++ a lenguaje ensamblador:
+Ahora vamos a diseccionar la [propuesta conceptual](https://docs.google.com/document/d/1yIN_2BTt_1wVe-F8-SSK5bE49vt3EBEv3fJUsnqDn0c/edit?usp=sharing) para la canción "Prometeo" de Nerón Arkano. 
+Este documento no es solo una idea; es un manifiesto de diseño. Lo usaremos como nuestro espécimen de 
+estudio para entender la conexión entre la teoría y la práctica.
 
-``` cpp
-//Adds 1+...+100.
- int i=1;
- int sum=0;
- 
- while(i <=100){
-    sum+= i;
-    i++;
- }
- ```
- Traducción a ensamblador: 
+Lee detenidamente el documento [NarrativaNODAL-SFI2](https://docs.google.com/document/d/1yIN_2BTt_1wVe-F8-SSK5bE49vt3EBEv3fJUsnqDn0c/edit?usp=sharing).
 
-``` asm
-// Adds1+...+100.
- @i // i refers to some memory location.
- M=1 // i=1
- @sum // sum refers to some memory location.
- M=0 // sum=0
- (LOOP)
- @i
- D=M // D=i
- @100
- D=D-A // D=i-100
- @END
- D;JGT // If(i-100)>0 gotoEND
- @i
- D=M // D=i
- @sum
- M=D+M // sum=sum+i
- @i
- M=M+1 // i=i+1
- @LOOP
- 0;JMP // GotoLOOP
- (END)
- @END
- 0;JMP // Infinite loop
-```
+Juntos, vamos a mapear cada fase de la experiencia ("Opresión", "Conflicto", "Revelación") al marco Input-Process-Output.
 
-- Carga el programa en el [simulador](https://nand2tetris.github.io/web-ide/cpu) y ejecuta 
-paso a paso cada instrucción. Trata de predecir el resultado de la instrucción 
-antes de ejecutarla.
-- ¿En qué direcciones de memoria se implementan las variables i, sum?
-- Basado en esta experiencia, ¿Cuál es la diferencia entre la dirección de una 
-variable y su contenido?
-- Explica cómo se implementa la condición i <= 100
+Fase I: OPRESIÓN
 
-**Entrega**: responde a las cuestiones anteriores en tu bitácora.
+**Input**: intensidad y tono grave de la voz de Nerón (analizada en tiempo real), posición de Nerón en el escenario (vía Kinect).
+
+**Process**: sistema de partículas ("lágrimas de luz") cuya velocidad y densidad dependen del input de la voz. Campo gravitatorio 
+visual alrededor del "aura" de Nerón que curva la luz.
+
+**Output**: domo en penumbra azulada, lluvia de luz pesada y lenta que reacciona a la voz, distorsión visual alrededor del artista.
+
+Fase II: CONFLICTO
+
+**Input**: aceleración y percusión del flow del rap (detección de sílabas/golpes), gestos enfáticos del artista (manotazos, brazos alzados).
+
+**Process**: el software dispara "ataques visuales" (fragmentos geométricos) desde los bordes del domo por cada golpe de rap. El 
+"aura" de Nerón actúa como un escudo que repele o desintegra los ataques. Los gestos se interpretan como "ondas de choque" 
+que limpian secciones del domo.
+
+**Output**: un campo de batalla sónico-visual. El artista, con su performance, se defiende del caos que su propia voz genera.
+
+Fase III: REVELACIÓN
+
+**Input**: palabras enviadas por el público vía celular (e.g., "Miedo", "Soledad"), movimiento de Nerón por el escenario.
+
+**Process**: las palabras aparecen como fragmentos visuales flotando. El aura de Nerón se transforma en una "llama" dorada. 
+Al entrar en contacto con la llama, el sistema transforma las palabras: "Miedo" florece, "Soledad" se convierte en un árbol de luz.
+
+**Output**: una catarsis colectiva. El público ve su propia vulnerabilidad transformada en belleza por el arte de Nerón.
+
+:::caution[📤 Bitácora]
+Crea una tabla en tu bitácora que resuma el análisis Input-Process-Output para las tres fases de "Prometeo".
+
+Reflexiona: ¿Qué elemento del diseño te parece más innovador y por qué? ¿Cómo crees que la experiencia del público 
+cambiaría si uno de los inputs (por ejemplo, las palabras del público) fuera eliminado?
+:::

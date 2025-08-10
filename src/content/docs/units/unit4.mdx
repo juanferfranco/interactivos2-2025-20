@@ -3,18 +3,292 @@ title: Unidad 4
 unitId: unit4
 ---
 
-import ActivityPlaceholder from '../../../components/ActivityPlaceholder.astro';
-
 ## Introducción 📜
 
+En la unidad anterior construiste la infraestructura técnica que permite la comunicación en tiempo real entre múltiples 
+clientes y tu aplicación de visuales. Implementaste la máquina de estados, el servidor de comunicaciones y los clientes 
+que envían datos. Ahora llega el momento más emocionante: materializar visualmente la experiencia generativa que 
+conceptualizaste en la Unidad 2.
 
-## ¿Qué aprenderás en esta unidad? 💡
+¿Recuerdas el documento de diseño que creaste para una canción de Nerón Arkano? Ese concepto, con sus fases emocionales, 
+su mapeo Input-Process-Output y su aplicación de Future Narratives, ahora se convertirá en código.
 
+## Set: ¿Qué aprenderás en esta unidad? 💡
 
-## Investigación 🔎
+En esta unidad implementarás técnicamente la experiencia generativa que conceptualizaste en la Unidad 2, integrando 
+tus algoritmos visuales específicos con la infraestructura de comunicación que construiste en la Unidad 3.
 
+Al finalizar esta unidad habrás:
 
-## Aplicación 🛠
+1. **Traducido tu concepto a código**: cada fase emocional de tu diseño tendrá su implementación visual específica 
+correspondiente a los 3 estados de tu sistema técnico.
 
+2. **Implementado tu mapeo Input-Process-Output específico**: los datos que definiste en tu concepto original 
+(voz, sensores, interacción del público) se transformarán según las reglas generativas que diseñaste.
 
-## Consolidación y metacognición 🤔
+3. **Materializado tus transiciones conceptuales**: las transiciones entre fases emocionales de tu canción se 
+convertirán en transiciones fluidas entre estados técnicos.
+
+4. **Desarrollado tu capa de interpretación estética personal**: traducirás los datos técnicos en las decisiones 
+visuales específicas que definiste en tu concepto original.
+
+### Actividad 01
+
+#### Revisión y refinamiento del concepto original
+
+Antes de implementar, necesitas revisar y posiblemente refinar el diseño que creaste en la Unidad 2, adaptándolo 
+a las capacidades técnicas que ahora tienes disponibles.
+
+**Paso 1: recuperación del concepto original**
+
+Retoma tu documento de diseño de la Actividad 04 de la Unidad 2. Relee tu concepto raíz, las fases emocionales 
+y el mapeo Input-Process-Output que definiste.
+
+**Paso 2: mapeo concepto → implementación técnica**
+
+Ahora debes hacer corresponder tu diseño conceptual con la arquitectura técnica que tienes:
+
+- Tus **fases emocionales** → Los **3 estados** de tu máquina de estados
+- Tus **inputs conceptuales** → Los **datos reales** de tus clientes (móviles, web, control remoto)
+- Tus **procesos generativos** → **Algoritmos específicos** implementables en p5.js
+- Tus **outputs conceptuales** → **Visuales técnicamente factibles**
+
+**Paso 3: refinamiento técnico**
+
+Ajusta tu concepto original considerando:
+
+1. **Limitaciones técnicas**: ¿Algún input que diseñaste no es posible con tu arquitectura actual?
+2. **Oportunidades técnicas**: ¿Hay capacidades de tus clientes que no consideraste originalmente?
+3. **Coherencia narrativa**: ¿Cómo adaptar las transiciones entre fases a tu sistema de estados?
+
+:::caution[📤 Bitácora]
+1. **Concepto original revisado**: 
+   - Título de tu proyecto original
+   - Canción seleccionada
+   - Concepto raíz (copiado de tu trabajo original)
+
+2. **Mapeo concepto → implementación técnica**
+
+3. **Algoritmos visuales específicos**: para cada estado, define qué algoritmo generativo específico implementarás 
+basado en tu concepto original.
+
+4. **Ajustes al concepto**: ¿Qué aspectos de tu diseño original tuviste que modificar y por qué?
+:::
+
+## Seek: Investigación 🔎
+
+En esta fase profundizarás en las técnicas algorítmicas específicas que necesitas para implementar tu concepto 
+particular y diseñarás la estrategia técnica exacta para cada fase de tu experiencia.
+
+### Actividad 02
+
+#### Diseño técnico detallado de tu sistema
+
+Ahora convertirás cada fase emocional de tu concepto en especificaciones técnicas detalladas, definiendo 
+exactamente cómo implementarás cada aspecto visual.
+
+**Paso 1: especificación técnica por estado**
+
+Para cada uno de los estados de tu sistema (correspondientes a tus fases emocionales originales):
+
+1. **Algoritmo generativo específico**: basado en la emoción y concepto de esta fase, ¿Qué técnica algorítmica la representa mejor?
+
+2. **Elementos visuales clave**: formas, colores, movimientos, texturas que materializan tu concepto para esta fase.
+
+3. **Mapeo detallado de datos**: cómo cada input específico de tus clientes afecta qué parámetros visuales específicos.
+
+**Paso 2: tabla de mapeo técnico detallado**
+
+Para cada estado, crea una tabla como esta, pero con tus datos específicos:
+
+| Cliente | Dato técnico | Parámetro visual de mi concepto | Rango de transformación |
+|---------|-------------|--------------------------------|------------------------|
+| Móvil 1 | Acelerómetro X | [tu parámetro específico] | [tu rango específico] |
+| Web | Mouse Y | [tu parámetro específico] | [tu rango específico] |
+| Control | Parámetro 1 | [tu parámetro específico] | [tu rango específico] |
+
+**Paso 3: Diseño de transiciones narrativas**
+
+¿Cómo se manifestarán técnicamente las transiciones entre las fases emocionales de tu canción? Diseña transiciones 
+que mantengan la coherencia narrativa de tu concepto original.
+
+:::caution[📤 Bitácora]
+1. **Estado 1 - [Nombre de tu fase emocional]**: 
+   - Emoción/concepto original de esta fase
+   - Algoritmo generativo elegido y justificación
+   - Elementos visuales específicos (colores, formas, movimientos)
+   - Tabla de mapeo técnico detallado
+   - Boceto o descripción visual detallada
+
+2. **Estado 2 - [Nombre de tu fase emocional]**: 
+   - [Misma estructura]
+
+3. **Estado 3 - [Nombre de tu fase emocional]** (si aplica): 
+   - [Misma estructura]
+
+4. **Transiciones narrativas**: describe técnicamente cómo cada transición servirá a la progresión emocional 
+de tu canción específica.
+
+5. **Coherencia con tu concepto**: ¿Cómo garantizarás que la implementación técnica mantenga la intención 
+artística de tu diseño original?
+:::
+
+### Actividad 03
+
+#### Prototipado de tus algoritmos específicos
+
+Ahora implementarás los algoritmos visuales específicos que necesitas para tu concepto.
+
+**Fase 1: implementación de tus algoritmos**
+
+Crea 3 sketches separados en p5.js, uno para cada estado/fase emocional de tu concepto. Cada sketch debe:
+
+1. Implementar el algoritmo generativo específico que elegiste para esa fase emocional.
+2. Incluir controles temporales que simulen los inputs específicos que definiste en tu concepto.
+3. Reflejar visualmente la emoción y estética específica de esa fase de tu canción.
+4. Mantener la coherencia visual con tu concepto raíz.
+
+**Fase 2: optimización para tu experiencia específica**
+
+Optimiza cada sketch considerando:
+
+- El número de elementos visuales que requiere tu concepto específico
+- Los efectos visuales particulares que diseñaste  
+- La duración aproximada de cada fase en tu canción
+- Las transiciones específicas que necesitas
+
+**Fase 3: Validación conceptual**
+
+Prueba cada prototipo preguntándote: ¿Este algoritmo comunica la emoción que diseñé para esta fase? 
+¿Se siente coherente con mi concepto raíz?
+
+:::caution[📤 Bitácora]
+1. **Código de los 3 prototipos**: enlaces al código de cada sketch correspondiente a cada fase emocional de tu concepto.
+
+2. **Bocetos visuales de cada prototipo**: imágenes o descripciones detalladas de cómo se ve cada fase emocional.
+
+3. **Análisis de coherencia conceptual**: para cada prototipo, evalúa qué tan bien logra comunicar la emoción 
+y concepto que diseñaste originalmente.
+
+:::
+
+## Apply: Aplicación 🛠
+
+Ahora integrarás tus visuales conceptuales con la infraestructura de comunicación, creando la materialización 
+completa de tu experiencia generativa original.
+
+### Actividad 04
+
+#### Integración de tu sistema conceptual completo
+
+**Fase 1: integración concepto → técnica**
+
+Modifica tu aplicación de visuales de la unidad anterior para:
+
+1. Reemplazar los estados genéricos con tus algoritmos específicos de cada fase emocional.
+2. Implementar el mapeo de datos específico que diseñaste para tu concepto.
+3. Asegurar que cada fase emocional reciba y procese los datos según tu diseño original.
+4. Mantener la intención narrativa de tu concepto durante toda la experiencia.
+
+**Fase 2: implementación de tus transiciones narrativas**
+
+Implementa las transiciones específicas entre tus fases emocionales que:
+
+1. Sirvan a la progresión emocional de tu canción específica.
+2. Mantengan la coherencia narrativa de tu concepto raíz.
+3. Respeten el timing y estructura de tu canción elegida.
+4. Puedan ser controladas para seguir la performance en vivo.
+
+**Fase 3: capa de interpretación de tu concepto**
+
+Implementa lógica específica que:
+
+1. Mantenga la coherencia estética de tu concepto durante cambios de datos.
+2. Agregue los "eventos especiales" que definiste en tu concepto original.
+3. Respete los principios de Future Narratives que aplicaste en tu diseño.
+4. Preserve la agencia distribuida que conceptualizaste.
+
+**Fase 4: optimización y preparación final**
+
+Realiza las optimizaciones finales:
+
+1. Ajusta los rangos de mapeo basándote en pruebas reales.
+2. Refina la respuesta visual para que se sienta natural e intuitiva.
+
+:::caution[📤 Bitácora]
+1. **Código del sistema integrado**: código completo de tu aplicación que materializa tu concepto de la Unidad 2.
+
+2. **Enlace a youtube de un video no listado** de demostración de todo tu sistema funcionando.
+
+3. **Análisis concepto vs. implementación**: compara tu resultado técnico con tu concepto original.
+¿Qué aspectos lograste fielmente? ¿Cuáles tuviste que adaptar?
+
+:::
+
+## Reflect: Consolidación y metacognición 🤔
+
+Esta fase consolida tu aprendizaje de la primera mitad del curso: desde los conceptos teóricos hasta la 
+materialización de un sistema de arte generativo funcional basado en el universo musical de Nerón Arkano. 
+Esta experiencia te prepara para la segunda mitad del curso, donde aplicarás todo lo aprendido a un tema 
+musical de tu propia elección.
+
+### Actividad 05
+
+#### Autoevaluación
+
+**Primera iteración completada: reflexión sobre el proceso con Nerón Arkano.**
+
+Reflexiona sobre tu proceso de aprendizaje en esta primera iteración completa, desde el concepto inicial 
+hasta la materialización técnica de tu sistema basado en una canción de Nerón Arkano.
+
+:::caution[📤 Bitácora]
+En tu bitácora, sin consultar tus notas, responde con tus propias palabras:
+
+1. **Materialización del concepto**: explica cómo se materializó tu marco Input-Process-Output específico en tu sistema final 
+y cómo implementaste técnicamente la "agencia distribuida" que diseñaste para tu experiencia particular.
+
+2. **Proceso creativo-técnico**: ¿Cuál fue el mayor reto durante la implementación y describe un momento donde tu concepto 
+original se transformó durante el proceso? ¿Mejoró o se comprometió tu visión original?
+
+3. **Validación de Future Narratives**: ¿Tu sistema final realmente materializa los principios de FN que aplicaste en 
+tu concepto, o se convirtió en algo más tradicional? ¿Logras "escenificar la apertura" o funciona más como una animación reactiva?
+
+4. **Preparación para la segunda iteración**: ¿Qué aspectos técnicos dominas ahora que te darán confianza para la segunda iteración del curso y qué limitaciones conceptuales o técnicas identificaste que quisieras superar en tu próximo proyecto?
+:::
+
+### Actividad 06
+
+#### Coevaluación
+
+**Comparando primeras iteraciones: aprendiendo de enfoques diversos.**
+
+:::caution[📤 Bitácora]
+1. Conversa con un compañero sobre la implementación de sus aplicaciones.
+
+2. En tu bitácora, documenta qué aprendiste de la conversación con tu compañero sobre sus decisiones de diseño, 
+implementación técnica y cómo resolvió los retos similares a los tuyos.
+:::
+
+### Actividad 07
+
+#### Feedback de la primera mitad del curso
+
+Tu retroalimentación sobre esta primera mitad del curso es fundamental para mejorar el curso.
+
+:::caution[📤 Bitácora]
+
+Responde sobre tu experiencia en estas primeras 4 unidades:
+
+1. **Efectividad de la progresión**: ¿La secuencia de contenidos abordados en cada unidad te pareció apropiada para poder 
+llegar a la materialización de tu concepto generativo?
+
+2. **Metodología con Nerón Arkano**: ¿Trabajar con un universo musical específico y compartido te ayudó a enfocarte en los conceptos, 
+o prefieres la libertad de elegir tu propio material desde el inicio?
+
+3. **Balance teoría-práctica**: ¿El equilibrio entre Future Narratives (teoría) e implementación técnica te permitió desarrollar 
+tanto pensamiento conceptual como habilidades prácticas?
+
+4. **Preparación para autonomía**: ¿Te sientes preparado/a para aplicar independientemente todo este proceso a un artista/género 
+musical completamente diferente? ¿Qué te genera más incertidumbre?
+
+:::

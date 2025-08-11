@@ -3,10 +3,6 @@ title: Unidad 3
 unitId: unit3
 ---
 
-:::danger[NO COMIENCES A TRABAJAR AÚN]
-Unidad en construcción
-:::
-
 ## Introducción 📜
 
 En las unidades anteriores, exploraste los fundamentos del arte generativo a través de la técnica 
@@ -25,7 +21,7 @@ generativo interactivo distribuidos. Trabajarás con tecnologías de comunicaci�
 múltiples fuentes de entrada de datos. En la unidad siguiente diseñarás sistemas visuales que respondan 
 dinámicamente a estos inputs.
 
-En esta unidad contruirás la infraestructura de comunicación y paso de mensajes y en la unidad que sigue te concentrarás 
+En esta unidad construirás la infraestructura de comunicación y paso de mensajes y en la unidad que sigue te concentrarás 
 en integrar los datos a las visuales generativas.
 
 ### El prototipo que vas a construir en esta unidad y en la siguiente
@@ -43,7 +39,8 @@ las visuales, pero sí implementarás la lógica que permita cambiar entre estos
 2. El sistema recibirá información simultánea de **3 tipos de clientes diferentes**:
 
 - **2 clientes móviles**: que enviarán datos de sensores y permitirán interacción directa del público.
-- **1 cliente web (browser)**: que podrá capturar datos como posición del mouse, clicks, teclas presionadas, audio del micrófono, video, etc.
+- **1 cliente web (browser)**: que podrá capturar datos como posición del mouse, clicks, teclas presionadas, audio del micrófono, video, etc 
+(tu seleccionas qué tipo de datos quieres capturar).
 - Estos datos servirán como **INPUTS** para alimentar los algoritmos generativos de cada estado visual.
 
 3. **Cliente de control remoto:** adicionalmente, implementarás un **cuarto cliente especializado** que funcionará como consola de 
@@ -95,10 +92,11 @@ que recibe la información de los clientes. Por ahora la vas a imprimir en la
 consola.
 2. La aplicación del servidor.
 3. Las aplicaciones de los clientes móviles y de escritorio. Por ahora 
-puedes simular los datos.
+puedes simular los datos. En la siguiente actividad implementarás la aplicación 
+del cliente que hace de control remoto.
 
 Vas a integrar todas estas aplicaciones para que funcionen en conjunto, pero 
-por ahora no tendrás visuales solo garantizarás que lleguen los datos 
+por ahora no tendrás visuales, solo garantizarás que lleguen los datos 
 de los clientes a la aplicación de visuales pasando por el servidor.
 
 :::caution[📤 Bitácora] 
@@ -143,8 +141,6 @@ Adicionalmente, ofrecerás feedback al profesor para mejorar el curso.
 ### Actividad 04
 
 #### Autoevaluación
-
-**Mirando hacia adentro: de la teoría a la implementación técnica.**
 
 El objetivo es que reflexiones sobre tu proceso de implementación técnica y evalúes qué tan bien lograste materializar 
 los conceptos teóricos del marco Input-Process-Output en un sistema funcional de comunicación en tiempo real.
